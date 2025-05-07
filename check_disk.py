@@ -11,7 +11,7 @@ load_dotenv()
 
 # Configuration
 PARTITION = '/'  # à adapter si nécessaire
-THRESHOLD = 10  # seuil d'utilisation en %
+THRESHOLD = 90  # seuil d'utilisation en %
 MAIL_HOST = os.getenv("MAIL_HOST")
 MAIL_PORT = int(os.getenv("MAIL_PORT", 587))
 MAIL_USER = os.getenv("MAIL_USER")
